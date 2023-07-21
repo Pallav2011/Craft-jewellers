@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
     })
   }
   private createTitle(routesCollection: Breadcrumb[]) {
-    const title = 'Laramiss Angular';
+    const title = ' AnLaramissgular';
     const titles = routesCollection.filter((route) => route.displayName);
 
     if (!titles.length) { return title; }
